@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+}
+
+input[name="taskInput"] {
+  height: 4rem;
+  padding: 1rem;
+  width: 65%;
+  border-radius: 0;
+  border: 1px solid #98ded9;
+}
+
+input[name="taskInput"]:focus {
+  outline: 2px solid #98DED9;
+}
+
+button[name="addButton"] {
+  width: 5rem;
+  border: none;
+  background-color: #98DED9;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #161D6F;
+}
